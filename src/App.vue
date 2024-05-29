@@ -54,6 +54,5 @@ img {
 
 .main-map {
   margin: 2rem 0 0;
-  width: calc(100% + 4rem);
 }
 </style>

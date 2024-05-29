@@ -19,6 +19,26 @@ watch(mapElement, (mapElement) => {
   const toiletMarker = leaflet.marker([55.94118, 12.51185]).addTo(map);
   const bikeParkingMarker = leaflet.marker([55.94127, 12.51126]).addTo(map);
 
+  // Display the user on the map
+  // TODO Put this behind a consent button, to avoid asking users for location data when launching the page
+  /*
+  map.locate({setView: true, watch: true, enableHighAccuracy: true})
+      .on('locationfound', function(e){
+        var marker = L.marker([e.latitude, e.longitude]).bindPopup('Your are here :)');
+        var circle = L.circle([e.latitude, e.longitude], e.accuracy/2, {
+          weight: 1,
+          color: 'blue',
+          fillColor: '#cacaca',
+          fillOpacity: 0.2
+        });
+        map.addLayer(marker);
+        map.addLayer(circle);
+      })
+      .on('locationerror', function(e){
+        console.log(e);
+        alert("Location access denied.");
+      });
+   */
 })
 </script>
 

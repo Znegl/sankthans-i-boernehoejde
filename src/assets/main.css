@@ -9,12 +9,11 @@
 }
 
 body {
-  background: #3d3027;
+  background-color: #4E483B;
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
-
   color: white;
-  font-family: sans-serif;
+  font-family: Work Sans, sans-serif;
 }
 
 img, picture, video, canvas, svg {

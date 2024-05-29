@@ -7,7 +7,7 @@ const mapElement = ref(null)
 
 
 watch(mapElement, (mapElement) => {
-  const map = leaflet.map(mapElement).setView([55.94177, 12.51008], 17);
+  const map = leaflet.map(mapElement, {scrollWheelZoom: false}).setView([55.94177, 12.51008], 17);
 
   leaflet.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
     maxZoom: 20,

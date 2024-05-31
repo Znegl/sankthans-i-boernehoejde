@@ -2,6 +2,8 @@
 import leaflet from 'leaflet'
 import {ref, watch} from "vue";
 import 'leaflet/dist/leaflet.css';
+import campfirePng from '@/assets/map/campfire.png'
+
 
 const mapElement = ref(null)
 
@@ -14,10 +16,16 @@ watch(mapElement, (mapElement) => {
     attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
   }).addTo(map);
 
-  const fireMarker = leaflet.marker([55.94152, 12.51202]).addTo(map);
+  const campfireIcon = leaflet.icon({iconUrl: campfirePng, iconSize: [96, 96]})
+
+  const fireMarker = leaflet.marker([55.94152, 12.51202], {icon: campfireIcon }).addTo(map);
+
+  // TODO Enable detailed markers if deemed necessary
+  /*
   const infoMarker = leaflet.marker([55.94130, 12.51193]).addTo(map);
   const toiletMarker = leaflet.marker([55.94118, 12.51185]).addTo(map);
   const bikeParkingMarker = leaflet.marker([55.94127, 12.51126]).addTo(map);
+  */
 
   // Display the user on the map
   // TODO Put this behind a consent button, to avoid asking users for location data when launching the page

@@ -1,5 +1,8 @@
 <script setup>
 import MainMap from "@/components/MainMap.vue";
+import { inject } from '@vercel/analytics';
+
+inject();
 </script>
 
 <template>

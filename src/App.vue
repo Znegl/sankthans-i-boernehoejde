@@ -4,7 +4,7 @@ import MainMap from "@/components/MainMap.vue";
 
 <template>
   <main>
-    <section class="text-section">
+    <section class="text-section main-text-section">
       <h1>Sankthans i Børne&shy;højde</h1>
       <p>
         <time datetime="2024-06-23">Søndag d. 23. juni 2024</time>
@@ -13,7 +13,6 @@ import MainMap from "@/components/MainMap.vue";
       <p>Rødgrød, leg og hygge fra
         <time datetime="2024-06-23T16:30">kl. 16.30</time>.
       </p>
-
       <p>Bålet tændes
         <time datetime="2024-06-23T16:30">kl. 17.30</time>.
       </p>
@@ -23,9 +22,18 @@ import MainMap from "@/components/MainMap.vue";
     </div>
     <MainMap/>
     <section class="text-section">
+      <h2>Mad & drikke</h2>
+      <p>Vi serverer gratis rødgrød med fløde.</p>
+      <p>Som udgangspunkt skal I have jeres egen mad og drikke med. Der er to bålpladser til rådighed for grillning.</p>
+    </section>
+    <section class="text-section">
+      <h2>Toilet</h2>
+      <p>Der er toilet tæt på bålpladsen.</p>
+    </section>
+    <section class="text-section">
       <h2>Hvem står bag?</h2>
       <p>
-        Sankthans i Børnehøjde afholdes af en lille flok frivillige på tværs af Nivå, med støtte fra <a href="https://fdfnivå.dk">FDF Nivå</a>.
+        Sankthans i Børnehøjde afholdes af en lille flok frivillige forældre på tværs af Nivå, med støtte fra <a href="https://fdfnivå.dk">FDF Nivå</a>.
       </p>
       <img class="fdf-nivaa-logo" src="@/assets/fdf-nivå-logo.svg" alt="FDF Nivås logo" >
     </section>
@@ -36,7 +44,6 @@ import MainMap from "@/components/MainMap.vue";
 main {
   display: flex;
   flex-direction: column;
-  text-align: center;
   align-items: center;
 }
 
@@ -47,7 +54,13 @@ h1 {
 }
 
 .text-section {
-  padding: 1rem;
+  padding: 1rem 1rem 3rem;
+  max-width: 50rem;
+  width: 100%;
+}
+
+.main-text-section {
+  text-align: center;
 }
 
 .main-illustration-wrapper {
@@ -67,7 +80,7 @@ h1 {
 }
 
 .main-map {
-  margin: 3rem 0;
+  margin: 1rem 0 3rem;
 }
 
 .fdf-nivaa-logo {

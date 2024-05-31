@@ -2,7 +2,6 @@
 import leaflet from 'leaflet'
 import {ref, watch} from "vue";
 import 'leaflet/dist/leaflet.css';
-import campfirePng from '@/assets/map/campfire.png'
 
 
 const mapElement = ref(null)
@@ -16,7 +15,7 @@ watch(mapElement, (mapElement) => {
     attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
   }).addTo(map);
 
-  const campfireIcon = leaflet.icon({iconUrl: campfirePng, iconSize: [96, 96]})
+  const campfireIcon = leaflet.icon({iconUrl: '/campfire.png', iconSize: [96, 96]})
 
   const fireMarker = leaflet.marker([55.94152, 12.51202], {icon: campfireIcon }).addTo(map);
 

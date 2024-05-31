@@ -4,7 +4,7 @@ import MainMap from "@/components/MainMap.vue";
 
 <template>
   <main>
-    <section class="main-text">
+    <section class="text-section">
       <h1>Sankthans i Børne&shy;højde</h1>
       <p>
         <time datetime="2024-06-23">Søndag d. 23. juni 2024</time>
@@ -22,6 +22,13 @@ import MainMap from "@/components/MainMap.vue";
       <img class="main-illustration" src="@/assets/sankthans-baal.png" alt="Maleri af børn omkring et sankthansbål">
     </div>
     <MainMap/>
+    <section class="text-section">
+      <h2>Hvem står bag?</h2>
+      <p>
+        Sankthans i Børnehøjde afholdes af en lille flok frivillige på tværs af Nivå, med støtte fra <a href="https://fdfnivå.dk">FDF Nivå</a>.
+      </p>
+      <img class="fdf-nivaa-logo" src="@/assets/fdf-nivå-logo.svg" alt="FDF Nivås logo" >
+    </section>
   </main>
 </template>
 
@@ -34,26 +41,13 @@ main {
 }
 
 h1 {
-  font-family: Lilita One, Work Sans, sans-serif;
-  text-transform: uppercase;
-  font-size: 3.75rem;
-  font-weight: normal;
-  line-height: 1.125em;
+  position: relative;
   z-index: 1;
   text-shadow: 0 .125rem .25rem rgba(0, 0, 0, .1);
-  margin-bottom: 1rem;
 }
 
-.main-text {
+.text-section {
   padding: 1rem;
-}
-
-p {
-  font-size: 1.25rem;
-}
-
-p + p {
-  margin-top: 1em;
 }
 
 .main-illustration-wrapper {
@@ -73,6 +67,13 @@ p + p {
 }
 
 .main-map {
-  margin: 2rem 0 0;
+  margin: 3rem 0;
+}
+
+.fdf-nivaa-logo {
+  margin-top: 2rem;
+  height: 5rem;
+  //width: 25rem;
+  max-width: 100%;
 }
 </style>

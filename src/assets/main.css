@@ -1,3 +1,6 @@
+:root {
+  --site-background-color: #4E483B;
+}
 
 *, *:before, *:after {
   box-sizing: border-box;
@@ -9,7 +12,7 @@
 }
 
 body {
-  background-color: #4E483B;
+  background-color: var(--site-background-color);
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
   color: white;

@@ -66,16 +66,18 @@ h1 {
 .main-illustration-wrapper {
   overflow: hidden;
   width: 100vw;
-  max-width: 50rem;
+  max-width: 1920px;
   order: -1;
   margin-bottom: -8rem;
 }
 
 .main-illustration {
   display: block;
-  margin: -5rem -1.125rem -1.125rem;
-  width: calc(100% + 2.25rem);
+  margin: -5rem -2rem -2rem;
+  width: calc(100% + 4rem);
   max-width: unset;
+  max-height: 700px;
+  object-fit: cover;
   mask-image: linear-gradient(white 60%, transparent 95%, transparent 98%);
 }
 

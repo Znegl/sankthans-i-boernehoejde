@@ -69,7 +69,7 @@ p + p {
   margin: -5rem -1.125rem -1.125rem;
   width: calc(100% + 2.25rem);
   max-width: unset;
-  mask-image: linear-gradient(white, transparent 95%, transparent 98%);
+  mask-image: linear-gradient(white 60%, transparent 95%, transparent 98%);
 }
 
 .main-map {

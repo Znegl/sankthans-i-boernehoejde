@@ -65,7 +65,7 @@ h1 {
 
 .main-illustration-wrapper {
   overflow: hidden;
-  width: 100vw;
+  width: 100%;
   max-width: 1920px;
   order: -1;
   margin-bottom: -8rem;

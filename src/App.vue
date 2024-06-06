@@ -28,10 +28,16 @@ inject();
       <h2>Mad & drikke</h2>
       <p>Vi serverer gratis rødgrød med fløde.</p>
       <p>Som udgangspunkt skal I have jeres egen mad og drikke med. Der er to bålpladser til rådighed for grillning.</p>
+      <h3>Kage</h3>
+      <p>Der vil være mulighed for at købe kage ved vores kagebord. Donationer til kagebordet er også meget velkomne. Alle indtægter går til næste års arrangement.</p>
     </section>
     <section class="text-section">
       <h2>Toilet</h2>
-      <p>Der er toilet tæt på bålpladsen.</p>
+      <p>Der er toilet med puslebord tæt på bålpladsen.</p>
+    </section>
+    <section class="text-section">
+      <h2>Affald</h2>
+      <p>Da der kun er en enkelt skraldespand i området, opfordrer vi alle til at tage deres eget affald med hjem.</p>
     </section>
     <section class="text-section">
       <h2>Hvem står bag?</h2>
@@ -60,6 +66,10 @@ h1 {
   position: relative;
   z-index: 1;
   text-shadow: 0 .125rem .25rem rgba(0, 0, 0, .1);
+}
+
+h3 {
+  margin-top: 2rem;
 }
 
 .text-section {

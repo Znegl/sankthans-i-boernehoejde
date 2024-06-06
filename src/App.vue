@@ -40,6 +40,12 @@ inject();
       </p>
       <img class="fdf-nivaa-logo" src="@/assets/fdf-nivå-logo.svg" alt="FDF Nivås logo" >
     </section>
+    <section class="text-section">
+      <h2>Støt</h2>
+      <p>
+        Donationer modtages med kyshånd på vores <a href="https://qr.mobilepay.dk/box/9bbbf8b8-b2de-407f-839f-b9e7d7602d5b/pay-in">MobilePay Box</a>.
+      </p>
+    </section>
   </main>
 </template>
 

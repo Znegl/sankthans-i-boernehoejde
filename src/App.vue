@@ -37,6 +37,10 @@ inject();
       <p>Der vil være mulighed for at købe både kaffe og kage ved vores kagebord. Donationer til kagebordet er også meget velkomne. Alle indtægter går til næste års arrangement.</p>
     </section>
     <section class="text-section">
+      <h2>Båltænding & sang</h2>
+      <p>Før bålet tændes, siger vi et par ord — ikke nogen længere båltale. Derefter synger vi i fællesskab <a href="https://hojskolesangbogen.dk/om-sangbogen/historier-om-sangene/m-n/midsommervise">Midsommervisen</a> akkompagneret af lidt musik, imens bålet tændes. Børnene i storegruppen i Solstrålen (Solsikkerne) har lavet en figur til bålet.</p>
+    </section>
+    <section class="text-section">
       <h2>Toilet</h2>
       <p>Der er toilet med puslebord tæt på bålpladsen.</p>
     </section>

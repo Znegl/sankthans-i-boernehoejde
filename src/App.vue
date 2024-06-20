@@ -28,8 +28,8 @@ inject();
       <h2>Mad & drikke</h2>
       <p>Vi serverer gratis rødgrød med fløde.</p>
       <p>Som udgangspunkt skal I have jeres egen mad og drikke med. Der er to bålpladser til rådighed for grillning.</p>
-      <h3>Kage</h3>
-      <p>Der vil være mulighed for at købe kage ved vores kagebord. Donationer til kagebordet er også meget velkomne. Alle indtægter går til næste års arrangement.</p>
+      <h3>Kaffe & kage</h3>
+      <p>Der vil være mulighed for at købe både kaffe og kage ved vores kagebord. Donationer til kagebordet er også meget velkomne. Alle indtægter går til næste års arrangement.</p>
     </section>
     <section class="text-section">
       <h2>Toilet</h2>

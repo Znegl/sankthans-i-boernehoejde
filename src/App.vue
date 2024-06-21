@@ -34,7 +34,7 @@ inject();
       <p>Alle tager deres egen mad og drikke med.</p>
       <p>Der er to bålpladser til rådighed for grillning, men vi forventer at blive flere hundrede mennesker, så det er ikke sikkert at der er plads til at alle kan grille på samme tid.</p>
       <h3>Kaffe & kage</h3>
-      <p>Der vil være mulighed for at købe både kaffe og kage ved vores kagebord. Donationer til kagebordet er også meget velkomne. Alle indtægter går til næste års arrangement.</p>
+      <p>Der vil være mulighed for at købe både kaffe og kage ved vores kagebord. Husk at tage egne kopper med, så vi slipper for engangskopper. Donationer til kagebordet er også meget velkomne. Alle indtægter går til næste års arrangement.</p>
     </section>
     <section class="text-section">
       <h2>Båltænding & sang</h2>

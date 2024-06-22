@@ -26,19 +26,26 @@ inject();
     <MainMap/>
     <section class="text-section">
       <h1>Velkommen i græsset</h1>
-      <p>Vi glæder os til at dele en hyggelig sankthansaften med jer! For at gøre det ekstra hyggeligt, anbefaler vi at i pakker cyklerne med skovturstæpper, en lækker madpakke og noget godt at drikke.</p>
+      <p>Vi glæder os til at dele en hyggelig sankthansaften med jer! For at gøre det ekstra hyggeligt, anbefaler vi at
+        i pakker cyklerne med skovturstæpper, en lækker madpakke og noget godt at drikke.</p>
     </section>
     <section class="text-section">
       <h2>Mad & drikke</h2>
       <p>Vi serverer gratis rødgrød med fløde.</p>
       <p>Alle tager deres egen mad og drikke med.</p>
-      <p>Der er to bålpladser til rådighed for grillning, men vi forventer at blive flere hundrede mennesker, så det er ikke sikkert at der er plads til at alle kan grille på samme tid.</p>
+      <p>Der er to bålpladser til rådighed for grillning, men vi forventer at blive flere hundrede mennesker, så det er
+        ikke sikkert at der er plads til at alle kan grille på samme tid.</p>
       <h3>Kaffe & kage</h3>
-      <p>Der vil være mulighed for at købe både kaffe og kage ved vores kagebord. Husk at tage egne kopper med, så vi slipper for engangskopper. Donationer til kagebordet er også meget velkomne. Alle indtægter går til næste års arrangement.</p>
+      <p>Der vil være mulighed for at købe både kaffe og kage ved vores kagebord.
+        Husk at tage egne kopper med, så vi slipper for engangskopper. Donationer til kagebordet er også meget velkomne.
+        Alle indtægter går til næste års arrangement.</p>
     </section>
     <section class="text-section">
       <h2>Båltænding & sang</h2>
-      <p>Før bålet tændes, siger vi et par ord — ikke nogen længere båltale. Derefter synger vi i fællesskab <a href="https://hojskolesangbogen.dk/om-sangbogen/historier-om-sangene/m-n/midsommervise">Midsommervisen</a> akkompagneret af lidt musik, imens bålet tændes. Børnene i storegruppen i Solstrålen (Solsikkerne) har lavet en figur til bålet.</p>
+      <p>Før bålet tændes, siger vi et par ord — ikke nogen længere båltale. Derefter synger vi i fællesskab <a
+          href="https://hojskolesangbogen.dk/om-sangbogen/historier-om-sangene/m-n/midsommervise">Midsommervisen</a>
+        akkompagneret af lidt musik, imens bålet tændes.
+        <!-- Børnene i storegruppen i Solstrålen (Solsikkerne) har lavet en figur til bålet. --></p>
     </section>
     <section class="text-section">
       <h2>Toilet</h2>
@@ -50,20 +57,25 @@ inject();
     </section>
     <section class="text-section">
       <h2>Parkering</h2>
-      <p>Der er masser af plads til cykelparkering langs stien. Parkering af biler er der ikke meget plads til i området, så vi anbefaler at I lader bilen stå derhjemme og tager en hyggelig gå- eller cykeltur i den lune sommeraften.</p>
+      <p>Der er masser af plads til cykelparkering langs stien. Parkering af biler er der ikke meget plads til i
+        området, så vi anbefaler at I lader bilen stå derhjemme og tager en hyggelig gå- eller cykeltur i den lune
+        sommeraften.</p>
     </section>
     <section class="text-section">
       <h2>Hvem står bag?</h2>
       <p>
-        Sankthans i Børnehøjde afholdes af en lille flok frivillige forældre på tværs af Nivå, med støtte fra <a href="https://fdfnivå.dk">FDF Nivå</a>.
+        Sankthans i Børnehøjde afholdes af en lille flok frivillige forældre på tværs af Nivå, med støtte fra <a
+          href="https://fdfnivå.dk">FDF Nivå</a>.
       </p>
-      <img class="fdf-nivaa-logo" src="@/assets/fdf-nivå-logo.svg" alt="FDF Nivås logo" >
+      <img class="fdf-nivaa-logo" src="@/assets/fdf-nivå-logo.svg" alt="FDF Nivås logo">
     </section>
     <section class="text-section">
       <h2>Støt</h2>
-      <p>Arrangementets eneste indtægter kommer fra kagebord og donationer. Alle indtægter går ubeskåret til drift og løbende forbedring af arrangementet.</p>
+      <p>Arrangementets eneste indtægter kommer fra kagebord og donationer. Alle indtægter går ubeskåret til drift og
+        løbende forbedring af arrangementet.</p>
       <p>
-        Donationer modtages med kyshånd på vores <a href="https://qr.mobilepay.dk/box/9bbbf8b8-b2de-407f-839f-b9e7d7602d5b/pay-in">MobilePay Box</a>.
+        Donationer modtages med kyshånd på vores <a
+          href="https://qr.mobilepay.dk/box/9bbbf8b8-b2de-407f-839f-b9e7d7602d5b/pay-in">MobilePay Box</a>.
       </p>
     </section>
   </main>

@@ -1,6 +1,10 @@
 <script setup>
 import MainMap from "@/components/MainMap.vue";
 import { inject } from '@vercel/analytics';
+import config from '/app.config.ts'
+import { computed } from "vue";
+
+const dateUcFirst = computed(() => config.dateTime.formatted.date.charAt(0).toUpperCase() + config.dateTime.formatted.date.slice(1))
 
 inject();
 </script>
@@ -10,14 +14,14 @@ inject();
     <section class="text-section main-text-section">
       <h1>Sankthans i Børne&shy;højde</h1>
       <p>
-        <time datetime="2024-06-23">Søndag d. 23. juni 2024</time>
+        <time :datetime="config.dateTime.raw.date">{{ dateUcFirst }}</time>
       </p>
       <p>Naturlegepladsen i lergravene i Nivå.</p>
       <p>Rødgrød, leg og hygge fra
-        <time datetime="2024-06-23T16:30">kl. 16.30</time>.
+        <time :datetime="config.dateTime.complete.startTime">kl. {{ config.dateTime.formatted.startTime }}</time>.
       </p>
       <p>Bålet tændes
-        <time datetime="2024-06-23T16:30">kl. 17.30</time>.
+        <time :datetime="config.dateTime.complete.fireTime">kl. {{ config.dateTime.formatted.fireTime }}</time>.
       </p>
     </section>
     <div class="main-illustration-wrapper">

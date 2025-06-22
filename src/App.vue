@@ -35,7 +35,6 @@ inject();
     </section>
     <section class="text-section">
       <h2>Mad & drikke</h2>
-      <p>Vi serverer gratis rødgrød med fløde.</p>
       <p>Alle tager deres egen mad og drikke med.</p>
       <p>Der er to bålpladser til rådighed for grillning, men vi forventer at blive flere hundrede mennesker, så det er
         ikke sikkert at der er plads til at alle kan grille på samme tid.</p>

@@ -17,7 +17,7 @@ inject();
         <time :datetime="config.dateTime.raw.date">{{ dateUcFirst }}</time>
       </p>
       <p>Naturlegepladsen i lergravene i Nivå.</p>
-      <p>Rødgrød, leg og hygge fra
+      <p>Kage, leg og hygge fra
         <time :datetime="config.dateTime.complete.startTime">kl. {{ config.dateTime.formatted.startTime }}</time>.
       </p>
       <p>Bålet tændes

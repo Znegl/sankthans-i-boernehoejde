@@ -45,9 +45,9 @@ inject();
     </section>
     <section class="text-section">
       <h2>Båltænding & sang</h2>
-      <p>Før bålet tændes, siger vi et par ord — ikke nogen længere båltale. Derefter synger vi i fællesskab <a
+      <p>Før bålet tændes, siger vi et par ord — ikke nogen længere båltale. Derefter tændes bålet og vi synger <a
           href="https://hojskolesangbogen.dk/om-sangbogen/historier-om-sangene/m-n/midsommervise">Midsommervisen</a>
-        akkompagneret af lidt musik, imens bålet tændes.
+        i fællesskab, akkompagneret af guitar og børn fra Nivå skoles kor.
         <!-- Børnene i storegruppen i Solstrålen (Solsikkerne) har lavet en figur til bålet. --></p>
     </section>
     <section class="text-section">

@@ -1,4 +1,4 @@
-const date = '2025-06-23'
+const date = '2026-06-23'
 const startTime = '16:30'
 const fireTime = '17:30'
 

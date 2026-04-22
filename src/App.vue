@@ -39,7 +39,8 @@ inject();
       <p>Der er to bålpladser til rådighed for grillning, men vi forventer at blive flere hundrede mennesker, så det er
         ikke sikkert at der er plads til at alle kan grille på samme tid.</p>
       <h3>Kaffe & kage</h3>
-      <p>Der vil være mulighed for at købe både kaffe og kage ved vores kagebord.
+      <p>Vi håber at der vil være mulighed for at købe både kaffe og kage ved vores kagebord. Pt. mangler vi stadig frivillige kagebager. <a href="mailto:thomas@fdfnivaa.dk?subject=Hjælp til kageborder til Sankthans i Børnehøjde">Send en e-mail til Thomas</a> hvis du vil hjælpe — vi dækker selvfølgelig alle udgifter.</p>
+      <p>
         Husk at tage egne kopper med, så vi slipper for engangskopper. Donationer til kagebordet er også meget velkomne.
         Alle indtægter går til næste års arrangement.</p>
     </section>
@@ -47,8 +48,7 @@ inject();
       <h2>Båltænding & sang</h2>
       <p>Før bålet tændes, siger vi et par ord — ikke nogen længere båltale. Derefter tændes bålet og vi synger <a
           href="https://hojskolesangbogen.dk/om-sangbogen/historier-om-sangene/m-n/midsommervise">Midsommervisen</a>
-        i fællesskab, akkompagneret af guitar og børn fra Nivå skoles kor.
-        <!-- Børnene i storegruppen i Solstrålen (Solsikkerne) har lavet en figur til bålet. --></p>
+        i fællesskab, akkompagneret af lidt musik.</p>
     </section>
     <section class="text-section">
       <h2>Toilet</h2>
@@ -71,6 +71,8 @@ inject();
           href="https://fdfnivå.dk">FDF Nivå</a>.
       </p>
       <img class="fdf-nivaa-logo" src="@/assets/fdf-nivå-logo.svg" alt="FDF Nivås logo">
+      <h3>Vil du også hjælpe?</h3>
+      <p><a href="mailto:thomas@fdfnivaa.dk?subject=Hjælp til Sankthans i Børnehøjde">Send en e-mail til Thomas</a> og fortæl hvad du har lyst til at hjælpe med. Det kan f.eks. være brænde til bålet, opstilling af legesager, kagebagning, kaffebrygning, brandsikkerhed, oprydning, osv..</p>
     </section>
     <section class="text-section">
       <h2>Støt</h2>

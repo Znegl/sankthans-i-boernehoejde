@@ -17,7 +17,7 @@ inject();
         <time :datetime="config.dateTime.raw.date">{{ dateUcFirst }}</time>
       </p>
       <p>Naturlegepladsen i lergravene i Nivå.</p>
-      <p>Kage, leg og hygge fra
+      <p>Leg, hygge og kaffe fra
         <time :datetime="config.dateTime.complete.startTime">kl. {{ config.dateTime.formatted.startTime }}</time>.
       </p>
       <p>Bålet tændes
@@ -38,17 +38,21 @@ inject();
       <p>Alle tager deres egen mad og drikke med.</p>
       <p>Der er to bålpladser til rådighed for grillning, men vi forventer at blive flere hundrede mennesker, så det er
         ikke sikkert at der er plads til at alle kan grille på samme tid.</p>
-      <h3>Kaffe & kage</h3>
+      <h3>Kaffe</h3>
+      <p>Vi er så heldige at <a href="https://www.instagram.com/grantskaffe/">Grant's Kaffe</a> har sagt ja til at trille den mobile kaffevogn til Lergravene, hvor hun vil sælge den lækreste friskbryggede kaffe.</p>
+      <!--
       <p>Vi håber at der vil være mulighed for at købe både kaffe og kage ved vores kagebord. Pt. mangler vi stadig frivillige kagebager. <a href="mailto:thomas@fdfnivaa.dk?subject=Hjælp til kageborder til Sankthans i Børnehøjde">Send en e-mail til Thomas</a> hvis du vil hjælpe — vi dækker selvfølgelig alle udgifter.</p>
+      -->
       <p>
-        Husk at tage egne kopper med, så vi slipper for engangskopper. Donationer til kagebordet er også meget velkomne.
-        Alle indtægter går til næste års arrangement.</p>
+        Tag endelig egne kopper med, så vi slipper for engangskopper. <!-- Donationer til kagebordet er også meget velkomne.
+        Alle indtægter går til næste års arrangement. --></p>
+      <p>Desværre har der ikke været frivillige kagebagere i år, men vi har et spændende samarbejde i ovnen til næste år.</p>
     </section>
     <section class="text-section">
       <h2>Båltænding & sang</h2>
       <p>Før bålet tændes, siger vi et par ord — ikke nogen længere båltale. Derefter tændes bålet og vi synger <a
           href="https://hojskolesangbogen.dk/om-sangbogen/historier-om-sangene/m-n/midsommervise">Midsommervisen</a>
-        i fællesskab, akkompagneret af lidt musik.</p>
+        i fællesskab, akkompagneret af live guitar og forsanger.</p>
     </section>
     <section class="text-section">
       <h2>Toilet</h2>

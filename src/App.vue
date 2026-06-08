@@ -71,9 +71,10 @@ inject();
     <section class="text-section">
       <h2>Hvem står bag?</h2>
       <p>
-        Sankthans i Børnehøjde afholdes af en lille flok frivillige forældre på tværs af Nivå, med støtte fra <a
+        Sankthans i Børnehøjde afholdes af en lille flok frivillige forældre på tværs af Nivå, med koordinering af Thomas Grinderslev og støtte fra <a
           href="https://fdfnivå.dk">FDF Nivå</a>.
       </p>
+      <p>Lydustyr sponsoreres af <a href="https://punchy.events">Punchy Events</a> og kaffe leveres af <a href="https://www.instagram.com/grantskaffe/">Grant's Kaffe</a>.</p>
       <img class="fdf-nivaa-logo" src="@/assets/fdf-nivå-logo.svg" alt="FDF Nivås logo">
       <h3>Vil du også hjælpe?</h3>
       <p><a href="mailto:thomas@fdfnivaa.dk?subject=Hjælp til Sankthans i Børnehøjde">Send en e-mail til Thomas</a> og fortæl hvad du har lyst til at hjælpe med. Det kan f.eks. være brænde til bålet, opstilling af legesager, kagebagning, kaffebrygning, brandsikkerhed, oprydning, osv..</p>

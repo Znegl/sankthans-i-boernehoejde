@@ -1,6 +1,7 @@
 const date = '2026-06-23'
 const startTime = '16:30'
 const fireTime = '17:30'
+const utcOffset = '+02:00'
 
 const dateTimeFormatter = new Intl.DateTimeFormat('da-DK', { weekday: 'long',year: "numeric", day: "numeric", month: "long"})
 
@@ -12,11 +13,11 @@ export default {
             fireTime
         },
         complete: {
-            startTime: `${date}T${startTime}`,
-            fireTime: `${date}T${fireTime}`
+            startTime: `${date}T${startTime}${utcOffset}`,
+            fireTime: `${date}T${fireTime}${utcOffset}`
         },
         formatted: {
-            date: dateTimeFormatter.format(new Date(date)),
+            date: dateTimeFormatter.format(new Date(`${date}T00:00:00${utcOffset}`)),
             startTime: startTime.replace(':', '.'),
             fireTime: fireTime.replace(':', '.')
         }

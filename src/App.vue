@@ -46,7 +46,7 @@ inject();
       <p>
         Tag endelig egne kopper med, så vi slipper for engangskopper. <!-- Donationer til kagebordet er også meget velkomne.
         Alle indtægter går til næste års arrangement. --></p>
-      <p>Desværre har der ikke været frivillige kagebagere i år, men vi har et spændende samarbejde i ovnen til næste år.</p>
+      <p>Desværre har der ikke været frivillige kagebagere i år, men vi er så heldige at Selo kommer og sælger cookies. derudover har vi et spændende nyt samarbejde i ovnen til næste år.</p>
     </section>
     <section class="text-section">
       <h2>Båltænding & sang</h2>
@@ -81,7 +81,7 @@ inject();
     </section>
     <section class="text-section">
       <h2>Støt</h2>
-      <p>Arrangementets eneste indtægter kommer fra kagebord og donationer. Alle indtægter går ubeskåret til drift og
+      <p>Arrangementets eneste indtægter kommer i år fra donationer. Alle indtægter går ubeskåret til drift og
         løbende forbedring af arrangementet.</p>
       <p>
         Donationer modtages med kyshånd på vores <a
